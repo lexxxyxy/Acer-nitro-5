@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACER Nitro 5 Intro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero-image {
+            background-image: url('https://media.binglee.com.au/3/a/e/e/3aee1f527fe72ab390a4ba7394266faff194cfc7_Acer_NH.QFHSA.008_Laptop_Hero_3.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+        }
+        .gradient-bg {
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        }
+    </style>
+</head>
+<body class="m-0 bg-white">
+    <!-- Intro Section -->
+    <div id="introView" class="fixed inset-0 z-30 flex flex-col justify-center items-center">
+        <div id="gap1" class="w-full h-full bg-neutral-900"></div>
+        <div class="absolute z-12 flex flex-col items-center">
+            <svg id="acer" fill="green" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" style="opacity: 0; transform: scale(0);">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M23.943 9.364c-.085-.113-.17-.198-.595-.226-.113 0-.453-.029-1.048-.029-1.56 0-2.636.482-3.175 1.417.142-.935-.765-1.417-2.749-1.417-2.324 0-3.798.935-4.393 2.834-.226.709-.226 1.276-.056 1.73h-.567c-.425.027-.992.056-1.36.056-.85 0-1.39-.142-1.588-.425-.17-.255-.17-.737.057-1.446.368-1.162 1.247-1.672 2.664-1.672.737 0 1.445.085 1.445.085.085 0 .142-.113.142-.198l-.028-.085-.057-.397c-.028-.255-.227-.397-.567-.453-.311-.029-.567-.029-.907-.029h-.028c-1.842 0-3.146.624-3.854 1.814.255-1.219-.596-1.814-2.551-1.814-1.105 0-1.9.029-2.353.085-.368.057-.595.199-.68.454l-.17.51c-.028.085.029.142.142.142.085 0 .425-.057.992-.086a24.816 24.816 0 0 1 1.672-.085c1.077 0 1.559.284 1.389.822-.029.114-.114.199-.255.227-1.02.17-1.842.284-2.438.369-1.7.226-2.692.736-2.947 1.587-.369 1.162.538 1.728 2.72 1.728 1.078 0 2.013-.056 2.75-.198.425-.085.652-.17.737-.453l.396-1.304c-.028 1.304.85 1.955 2.721 1.955.794 0 1.559-.028 1.927-.085.369-.056.567-.141.652-.425l.085-.396c.397.623 1.276.935 2.608.935 1.417 0 2.239-.029 2.465-.114a.523.523 0 0 0 .369-.311l.028-.085.17-.539c.029-.085-.028-.142-.142-.142l-.906.057c-.596.029-1.077.057-1.418.057-.651 0-1.076-.057-1.332-.142-.368-.142-.538-.397-.51-.822l2.863-.368c1.275-.17 2.154-.567 2.579-1.19l-.992 3.315c-.028.057 0 .114.028.142.029.028.085.057.199.057h1.19c.198 0 .283-.114.312-.199l1.048-3.656c.142-.481.567-.708 1.36-.708.71 0 1.22 0 1.56.028h.028c.057 0 .17-.028.255-.17l.17-.51c0-.085 0-.17-.057-.227zM4.841 13.73c-.368.057-.907.085-1.587.085-1.219 0-1.729-.255-1.587-.737.113-.34.425-.567.935-.624l2.75-.368zm12.669-2.95c-.114.369-.652.624-1.616.766l-2.295.311.056-.198c.199-.624.454-1.02.794-1.247.34-.227.907-.34 1.7-.34 1.05.028 1.503.255 1.36.708z"></path>
+                </g>
+            </svg>
+            <h1 id="intro" class="opacity-0 transform -translate-y-10 text-2xl font-extrabold bg-gradient-to-r from-slate-600 via-neutral-300 to-zinc-400 bg-clip-text text-transparent mt-4">
+                INTRODUCING...
+            </h1>
+        </div>
+        <div id="gap2" class="w-full h-full bg-neutral-900"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-40 bg-white shadow-md opacity-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-green-500">ACER NITRO 5</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-image relative">
+        <div class="gradient-bg absolute inset-0 flex items-center justify-center">
+            <h1 class="text-white text-4xl font-extrabold">Introducing the Acer Nitro 5</h1>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="max-w-screen-lg mx-auto p-4 mt-12">
+        <div class="flex justify-center flex-wrap gap-4">
+            <img alt="Windows 11 logo" src="https://storage.googleapis.com/a1aa/image/tZWx9P-2-UW7t0Az4_HEjR5IFDgOT7duW1XFJtMwoFo.jpg" class="h-16" />
+            <img alt="Intel Core i7 logo" src="https://storage.googleapis.com/a1aa/image/khUYXfHiHU9Mlohsk0F6jGp9NzUhmKAymrajZ0KCS04.jpg" class="h-16" />
+            <img alt="NVIDIA GeForce RTX logo" src="https://storage.googleapis.com/a1aa/image/BKrYCC3lIDIQbW_6XLNS6Ft4pi0c7W_hpLnPn2S_kXg.jpg" class="h-16" />
+            <img alt="165Hz logo" src="https://storage.googleapis.com/a1aa/image/mCvgdQlTr-Nr30HMau5LNEzVrsG_7Vy3r1gi70cPv7Q.jpg" class="h-16" />
+            <img alt="DTS X logo" src="https://storage.googleapis.com/a1aa/image/jEvyy9Zzm2MZX3fQZbApt_MVuIDj6hFGQQL7Y_oLbOE.jpg" class="h-16" />
+            <img alt="Wi-Fi 6E logo" src="https://storage.googleapis.com/a1aa/image/KYKF_HHeJkybrKWQm2R7AiUMH9Pskg1MpJ3pPPeZdTM.jpg" class="h-16" />
+        </div>
+
+        <p class="text-center mt-8 text-gray-700">
+            Kuasa dunia game dengan kombinasi kekuatan prosesor Intel® Core™ i7 Generasi ke-12 dan GPU hingga NVIDIA® GeForce RTX™ 30 Series. Konfigurasikan laptop Anda untuk mencapai kecepatan tinggi dan penyimpanan masif dengan dua slot M.2 PCIe GEN 4 dan RAM DDR4 3200 hingga 32 GB.
+        </p>
+
+        <h2 class="text-2xl font-bold text-center mt-8">Spesifikasi Superior</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-4">
+            <div>
+                <p class="text-sm">Microsoft<sup>®</sup></p>
+                <p class="text-xl font-bold">Windows 11 Home</p>
+                <p class="text-sm">Sistem Operasi</p>
+            </div>
+            <div>
+                <p class="text-sm">Prosesor</p>
+                <p class="text-xl font-bold">Intel<sup>®</sup> Core<sup>™</sup> i7 Gen 12</p>
+                <p class="text-sm">Performa Maksimal</p>
+            </div>
+            <div>
+                <p class="text-sm">GPU Laptop</p>
+                <p class="text-xl font-bold">GeForce RTX<sup>™</sup> 30 Series</p>
+                <p class="text-sm">Hingga 32 GB RAM</p>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <img alt="Gaming scene on Acer laptop" class="w-full rounded-lg shadow" src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP01-3?$responsive$" />
+        </div>
+
+        <div class="mt-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Kenapa Pilih Acer Nitro 5?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-4 border rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speed.png" alt="Performa Tinggi" class="mx-auto mb-4 w-10 h-10">
+                    <h3 class="text-lg font-semibold mb-2">Performa Tinggi</h3>
+                    <p class="text-sm text-gray-600">Didukung prosesor Intel® Core™ i7 Gen 12 dan GPU RTX™ 30 Series untuk multitasking & gaming tanpa lag.</p>
+                </div>
+                <div class="p-4 border rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://icon-library.com/images/icon-cooling/icon-cooling-14.jpg" alt="Sistem Pendingin" class="mx-auto mb-4 w-10 h-10">
+                    <h3 class="text-lg font-semibold mb-2">Sistem Pendingin Gahar</h3>
+                    <p class="text-sm text-gray-600">Dual-fan cooling & teknologi CoolBoost™ menjaga suhu tetap stabil saat bermain game berat.</p>
+                </div>
+                <div class="p-4 border rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/keyboard.png" alt="RGB Keyboard" class="mx-auto mb-4 w-10 h-10">
+                    <h3 class="text-lg font-semibold mb-2">RGB Keyboard</h3>
+                    <p class="text-sm text-gray-600">Nikmati pengalaman gaming maksimal dengan keyboard 4-zone RGB yang responsif & stylish.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="max-w-7xl mx-auto px-4 py-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Dibuat untuk Gaming Generasi Berikutnya</h2>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Prosesor Intel® Core™ Generasi ke-12</h3>
+                <p class="text-gray-700 mb-4">Performa game yang unggul dan fleksibel untuk multitugas. Arsitektur cerdas mencocokkan core dan tugas agar game tetap lancar, bahkan saat streaming atau editing.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🔹 14 Core (6P-core + 8E-core)</li>
+                    <li>🔹 20 Thread</li>
+                </ul>
+            </div>
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP02_2560-3?$responsive$" alt="Intel Core Performance" class="rounded-lg shadow-lg" />
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP03?$responsive$" alt="NVIDIA Graphics" class="rounded-lg shadow-lg" />
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Kartu Grafis NVIDIA® GeForce RTX™ 30 Series</h3>
+                <p class="text-gray-700 mb-4">Ray Tracing, NVIDIA DLSS, dan teknologi Max-Q generasi terbaru menghadirkan pengalaman visual menakjubkan sekaligus performa optimal.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🎮 Performa AI maksimal dengan DLSS</li>
+                    <li>🎮 Grafis realistis dengan Ray Tracing</li>
+                    <li>🎮 Laptop tipis berperforma tinggi berkat Max-Q</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Tampilan Sempurna. Secepat Kilat.</h3>
+                <p class="text-gray-700 mb-4">Dengan refresh rate 165Hz dan response time 3ms, pengalaman gaming jadi halus dan bebas ghosting.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🖥️ 15,6" / 17,3" QHD Display (2560x1440)</li>
+                    <li>⚡ 165Hz Refresh Rate</li>
+                    <li>⚡ 3ms Response Time</li>
+                </ul>
+            </div>
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP03_3-3?$responsive$" alt="High Refresh Display" class="rounded-lg shadow-lg" />
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP06-5?$responsive$" alt="Cooling System" class="rounded-lg shadow-lg" />
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Temperatur Senantiasa Terjaga</h3>
+                <p class="text-gray-700 mb-4">Pendinginan ganda, intake atas & bawah, dan quad-exhaust membuat suhu tetap adem saat bermain.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>❄️ Dual Fan</li>
+                    <li>🌬️ Quad Exhaust</li>
+                    <li>💨 Intake Atas & Bawah</li>
+                    <li>⚙️ NitroSense Control</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Kunci Meraih Kemenangan</h3>
+                <p class="text-gray-700 mb-4">Keyboard RGB 4 zona dengan tombol WASD bercahaya dan software NitroSense siap mendukung kemenanganmu.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🎮 RGB Keyboard 4 Zona</li>
+                    <li>⌨️ Tombol WASD terang</li>
+                </ul>
+            </div>
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP09-3?$responsive$" alt="RGB Keyboard" class="rounded-lg shadow-lg" />
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP09-3?$responsive$" alt="Audio DTS:X" class="rounded-lg shadow-lg" />
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Melampaui Batasan Suara</h3>
+                <p class="text-gray-700 mb-4">DTS:X® Ultra hadirkan suara 3D spasial dari dua speaker 2W. Dengarkan posisi musuh dengan lebih akurat!</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🔊 Audio Spatial 3D</li>
+                    <li>🎧 DTS:X® Ultra</li>
+                    <li>📢 2x 2W Speaker</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Konektivitas Killer</h3>
+                <p class="text-gray-700 mb-4">Dengan Intel® Killer E2600, Killer™ Wi-Fi 6 AX1650i, dan Killer Control Center 2.0, nikmati koneksi stabil dan latensi rendah.</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>🌐 Killer E2600 – 1 Gbps</li>
+                    <li>📶 Killer Wi-Fi 6 – 2.4 Gbps</li>
+                    <li>🧠 Killer Control Center 2.0</li>
+                </ul>
+            </div>
+            <img src="https://images.acer.com/is/image/acer/Nitro_5_AGW_KSP08-3?$responsive$" alt="Killer Networking" class="rounded-lg shadow-lg" />
+        </div>
+    </section>
+    <div class="container mx-auto px-4 py-8">
+        <!-- Section 1 -->
+        <div class="text-center mb-8">
+         <h1 class="text-3xl font-bold">
+          Turnamen
+         </h1>
+         <p class="text-lg">
+          Taklukkan turnamen esports dan jadilah juara
+         </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div>
+          <img alt="Silhouettes of gamers in a dark, futuristic setting" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/TN7RJi0zJYm2wgDm1f8N8rXwSjYUwKpMuZ6hDVpBvNA.jpg" width="600"/>
+         </div>
+         <div>
+          <img alt="A person standing in front of a futuristic control panel with electric sparks" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/YK8XGHuqzO-imado48hQzH4WdGjHyHwMZRiqrLm7nRE.jpg" width="600"/>
+         </div>
+        </div>
+        <!-- Section 2 -->
+        <div class="text-center mt-8 mb-8">
+         <h1 class="text-3xl font-bold">
+          Kursus
+         </h1>
+         <p class="text-lg">
+          Naik level dengan kursus eksklusif dan statistik menyeluruh
+         </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div class="order-2 md:order-1">
+          <img alt="A person in a dark, futuristic setting with neon lights" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/UCmhpF8KIUtKepVkS9l0LtCH7j4m5wYmSzbhfX4efdg.jpg" width="600"/>
+         </div>
+         <div class="order-1 md:order-2">
+          <img alt="A person standing in front of a futuristic control panel with electric sparks" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/YK8XGHuqzO-imado48hQzH4WdGjHyHwMZRiqrLm7nRE.jpg" width="600"/>
+         </div>
+        </div>
+        <!-- Section 3 -->
+        <div class="text-center mt-8 mb-8">
+         <h1 class="text-3xl font-bold">
+          Komunitas
+         </h1>
+         <p class="text-lg">
+          Bergabunglah dengan komunitas kami dan temukan teman baru
+         </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div>
+          <img alt="A group of people in a gaming community event" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/ucxK0vmUZKoS2sA87JsJOLjKhh_SfGXJa17AU077sqo.jpg" width="600"/>
+         </div>
+         <div>
+          <img alt="A group of gamers celebrating a victory" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/Z5NZR8Mf6Jqz4Q--2mqHyGtbV03cuO-AlVbAkbnCh9A.jpg" width="600"/>
+         </div>
+        </div>
+        <!-- Section 4 -->
+        <div class="text-center mt-8 mb-8">
+         <h1 class="text-3xl font-bold">
+          Berita
+         </h1>
+         <p class="text-lg">
+          Dapatkan berita terbaru tentang dunia esports
+         </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div class="order-2 md:order-1">
+          <img alt="A person reading esports news on a tablet" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/SULx_Bvx8-LJjWwKucD1D9cQrn8HxgL57sii_VKvAVk.jpg" width="600"/>
+         </div>
+         <div class="order-1 md:order-2">
+          <img alt="A news anchor reporting on esports events" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/d_iQZtR6f4FMFvteAL6fTWc2306ibDy41KmN3h35Cyw.jpg" width="600"/>
+         </div>
+        </div>     
+        
+        <header class="bg-gray-800 text-white p-6">
+            <h1 class="text-3xl font-bold">Katalog Laptop Acer Nitro 5</h1>
+            <p class="mt-2">Temukan laptop gaming terbaik untuk pengalaman bermain yang maksimal!</p>
+        </header>
+    
+        <main class="container mx-auto mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Produk 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://example.com/nitro5-1.jpg" alt="Acer Nitro 5" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Acer Nitro 5 AN515-45</h2>
+                        <p class="mt-2">Prosesor: AMD Ryzen 5 5600H</p>
+                        <p class="mt-1">RAM: 8GB</p>
+                        <p class="mt-1">Storage: 512GB SSD</p>
+                        <p class="mt-2 text-lg font-bold">Rp 15.000.000</p>
+                        <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Beli Sekarang</button>
+                    </div>
+                </div>
+    
+                <!-- Produk 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://example.com/nitro5-2.jpg" alt="Acer Nitro 5" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Acer Nitro 5 AN515-58</h2>
+                        <p class="mt-2">Prosesor: Intel Core i5-12500H</p>
+                        <p class="mt-1">RAM: 16GB</p>
+                        <p class="mt-1">Storage: 1TB SSD</p>
+                        <p class="mt-2 text-lg font-bold">Rp 18.000.000</p>
+                        <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Beli Sekarang</button>
+                    </div>
+                </div>
+    
+                <!-- Produk 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://example.com/nitro5-3.jpg" alt="Acer Nitro 5" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold">Acer Nitro 5 AN515-57</h2>
+                        <p class="mt-2">Prosesor: Intel Core i7-11800H</p>
+                        <p class="mt-1">RAM: 16GB</p>
+                        <p class="mt-1">Storage: 1TB SSD</p>
+                        <p class="mt-2 text-lg font-bold">Rp 22.000.000</p>
+                        <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            gsap.registerPlugin(ScrollTrigger);
+
+            let tl = gsap.timeline();
+
+            tl.to("#acer", {
+                opacity: 1,
+                duration: 2,
+                scale: 2,
+                clipPath: "circle(100%)"
+            })
+            .to("#acer", {
+                yPercent: -28,
+                duration: 0.8,
+            })
+            .to("#intro", {
+                opacity: 1,
+                duration: 0.7,
+                scale: 1.2,
+                yPercent: -17,
+            }, "<")
+            .to(["#gap1", "#gap2"], {
+                height: 0,
+                duration: 1.3,
+                ease: "power2.in"
+            }, "4")
+            .to(["#intro", "#acer"], {
+                opacity: 0,
+                duration: 1.2,
+            }, "<")
+            .to("#introView", {
+                scale: 0,
+                duration: 0.8
+            })
+            .to("#introView", {
+                scale: 0,
+                duration: 0.8,
+                onComplete: () => {
+                    // Show navbar after intro is complete
+                    const navbar = document.getElementById("navbar");
+                    if (navbar) {
+                        navbar.classList.remove("opacity-0");
+
+                        // Optional: add fade-in animation for navbar
+                        gsap.to("#navbar", {
+                            opacity: 1,
+                            duration: 0.5,
+                            ease: "power1.out"
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
